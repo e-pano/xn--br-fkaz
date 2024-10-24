@@ -23,7 +23,7 @@ function setBackgroundImage() {
     const minutes = now.getMinutes();
     const currentMinutes = hours * 60 + minutes;
     var isPortrait = window.innerHeight > window.innerWidth;
-    const imgPath = "https://e-pano.github.io/börü/img/";
+    const imgPath = "https://börü.pages.dev/börü/img/";
     const weekOfYear = getWeekOfYear(now);
     const weekIndex = (weekOfYear - 1) % daylightHours.length;
     const { start, end } = daylightHours[weekIndex];
