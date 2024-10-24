@@ -270,7 +270,7 @@ checkUrlStatus(lastSrc).then(isValid => {
 setInterval(reloadIframe, reloadInterval);
 
 const dayMusic = 'https://xn--br-fkaz.pages.dev/mp3/musicDay.mp3';
-const nightMusic = 'https://xn--br-fkaz.pages.dev//mp3/musicNight.mp3';
+const nightMusic = 'https://xn--br-fkaz.pages.dev/mp3/musicNight.mp3';
 
 const audio1 = new Audio(dayMusic);
 const audio2 = new Audio(dayMusic);
