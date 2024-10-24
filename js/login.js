@@ -1,4 +1,4 @@
-let isDayTime = null;
+let isDayTime;
 let lastIsDayTime = null;
 let audio = new Audio();
 
@@ -36,7 +36,7 @@ function updateBackground() {
 
 
     const isLandscape = $(window).width() > $(window).height();
-    const imgPath = "https://xn--br-fkaz.pages.dev/img/";
+    const imgPath = "../img/";
     const backgroundImageUrl = isDayTime
 
 
@@ -127,7 +127,7 @@ function toggleTooltip(element) {
         popupTimeout = setTimeout(() => {
             if (tooltip.style.display === "block") {
                 tooltip.style.display = "none";
-            }
+            }0
         }, 8200);
     } else {
         tooltip.style.display = "none";
@@ -187,7 +187,7 @@ function openPopup() {
     popup.style.display = "block";
 
     var gif = document.getElementById("reminderGif");
-    var currentSrc = "https://xn--br-fkaz.pages.dev/img/reminder.gif";
+    var currentSrc = "https://e-pano.github.io/börü/img/reminder.gif";
     gif.src = "";
     gif.src = currentSrc + "?t=" + new Date().getTime();
 
@@ -269,8 +269,8 @@ checkUrlStatus(lastSrc).then(isValid => {
 
 setInterval(reloadIframe, reloadInterval);
 
-const dayMusic = 'https://xn--br-fkaz.pages.dev/mp3/musicDay.mp3';
-const nightMusic = 'https://xn--br-fkaz.pages.dev/mp3/musicNight.mp3';
+const dayMusic = '../mp3/musicDay.mp3';
+const nightMusic = '../mp3/musicNight.mp3';
 
 const audio1 = new Audio(dayMusic);
 const audio2 = new Audio(dayMusic);
@@ -403,9 +403,9 @@ let soundOn = true;
 
 function updateIcon() {
     if (isDayTime) {
-        soundIcon.src = soundOn ? 'https://xn--br-fkaz.pages.dev/icon/togglesoundDay.svg' : 'https://xn--br-fkaz.pages.dev/icon/togglemuteDay.svg';
+        soundIcon.src = soundOn ? '../icon/togglesoundDay.svg' : '../icon/togglemuteDay.svg';
     } else {
-        soundIcon.src = soundOn ? 'https://xn--br-fkaz.pages.dev/icon/togglesoundNight.svg' : 'https://xn--br-fkaz.pages.dev/icon/togglemuteNight.svg';
+        soundIcon.src = soundOn ? '../icon/togglesoundNight.svg' : '../icon/togglemuteNight.svg';
     }
 }
 
@@ -415,10 +415,10 @@ toggleButton.addEventListener('click', () => {
 });
 
 const images = [
-    'https://xn--br-fkaz.pages.dev/img/BGlandscapeDay.jpg',
-    'https://xn--br-fkaz.pages.dev/img/BGlandscapeNight.jpg',
-    'https://xn--br-fkaz.pages.dev/img/BGportraitDay.jpg',
-    'https://xn--br-fkaz.pages.dev/img/BGportraitNight.jpg',
+    '../img/BGlandscapeDay.jpg',
+    '../img/BGlandscapeNight.jpg',
+    '../img/BGportraitDay.jpg',
+    '../img/BGportraitNight.jpg',
 ];
 
 let loadedImages = 0;
