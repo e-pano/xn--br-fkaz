@@ -403,9 +403,9 @@ let soundOn = true;
 
 function updateIcon() {
     if (isDayTime) {
-        soundIcon.src = soundOn ? '../icon/togglesoundDay.svg' : '../icon/togglemuteDay.svg';
+        soundIcon.src = soundOn ? 'https://xn--br-fkaz.pages.dev/icon/togglesoundDay.svg' : 'https://xn--br-fkaz.pages.dev/icon/togglemuteDay.svg';
     } else {
-        soundIcon.src = soundOn ? '../icon/togglesoundNight.svg' : '../icon/togglemuteNight.svg';
+        soundIcon.src = soundOn ? 'https://xn--br-fkaz.pages.dev/icon/togglesoundNight.svg' : 'https://xn--br-fkaz.pages.dev/icon/togglemuteNight.svg';
     }
 }
 
