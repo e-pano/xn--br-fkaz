@@ -415,10 +415,10 @@ toggleButton.addEventListener('click', () => {
 });
 
 const images = [
-    'https://börü.pages.dev/img/BGlandscapeDay.jpg',
-    'https://börü.pages.dev/img/BGlandscapeNight.jpg',
-    'https://börü.pages.dev/img/BGportraitDay.jpg',
-    'https://börü.pages.dev/img/BGportraitNight.jpg',
+    'https://xn--br-fkaz.pages.dev/img/BGlandscapeDay.jpg',
+    'https://xn--br-fkaz.pages.dev/img/BGlandscapeNight.jpg',
+    'https://xn--br-fkaz.pages.dev/img/BGportraitDay.jpg',
+    'https://xn--br-fkaz.pages.dev/img/BGportraitNight.jpg',
 ];
 
 let loadedImages = 0;
