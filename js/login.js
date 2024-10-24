@@ -415,10 +415,10 @@ toggleButton.addEventListener('click', () => {
 });
 
 const images = [
-    'https://xn--br-fkaz.pages.dev/img/BGlandscapeDay.jpg',
-    'https://xn--br-fkaz.pages.dev/img/BGlandscapeNight.jpg',
-    'https://xn--br-fkaz.pages.dev/img/BGportraitDay.jpg',
-    'https://xn--br-fkaz.pages.dev/img/BGportraitNight.jpg',
+    'https://e-pano.github.io/xn--br-fkaz/img/BGlandscapeDay.jpg',
+    'https://e-pano.github.io/xn--br-fkaz/img/BGlandscapeNight.jpg',
+    'https://e-pano.github.io/xn--br-fkaz/img/BGportraitDay.jpg',
+    'https://e-pano.github.io/xn--br-fkaz/img/BGportraitNight.jpg',
 ];
 
 let loadedImages = 0;
