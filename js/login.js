@@ -415,10 +415,10 @@ toggleButton.addEventListener('click', () => {
 });
 
 const images = [
-    'https://e-pano.github.io/börü/img/BGlandscapeDay.jpg',
-    'https://e-pano.github.io/börü/img/BGlandscapeNight.jpg',
-    'https://e-pano.github.io/börü/img/BGportraitDay.jpg',
-    'https://e-pano.github.io/börü/img/BGportraitNight.jpg',
+    'https://börü.pages.dev/img/BGlandscapeDay.jpg',
+    'https://börü.pages.dev/img/BGlandscapeNight.jpg',
+    'https://börü.pages.dev/img/BGportraitDay.jpg',
+    'https://börü.pages.dev/img/BGportraitNight.jpg',
 ];
 
 let loadedImages = 0;
