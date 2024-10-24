@@ -36,7 +36,7 @@ function updateBackground() {
 
 
     const isLandscape = $(window).width() > $(window).height();
-    const imgPath = "https://e-pano.github.io/börü/img/";
+    const imgPath = "https://xn--br-fkaz.pages.dev/börü/img/";
     const backgroundImageUrl = isDayTime
 
 
@@ -187,7 +187,7 @@ function openPopup() {
     popup.style.display = "block";
 
     var gif = document.getElementById("reminderGif");
-    var currentSrc = "https://e-pano.github.io/börü/img/reminder.gif";
+    var currentSrc = "https://xn--br-fkaz.pages.dev/img/reminder.gif";
     gif.src = "";
     gif.src = currentSrc + "?t=" + new Date().getTime();
 
@@ -269,8 +269,8 @@ checkUrlStatus(lastSrc).then(isValid => {
 
 setInterval(reloadIframe, reloadInterval);
 
-const dayMusic = 'https://e-pano.github.io/börü/mp3/musicDay.mp3';
-const nightMusic = 'https://e-pano.github.io/börü/mp3/musicNight.mp3';
+const dayMusic = 'https://xn--br-fkaz.pages.dev/mp3/musicDay.mp3';
+const nightMusic = 'https://xn--br-fkaz.pages.dev//mp3/musicNight.mp3';
 
 const audio1 = new Audio(dayMusic);
 const audio2 = new Audio(dayMusic);
