@@ -23,7 +23,7 @@ function setBackgroundImage() {
     const minutes = now.getMinutes();
     const currentMinutes = hours * 60 + minutes;
     var isPortrait = window.innerHeight > window.innerWidth;
-    const imgPath = "https://xn--br-fkaz.pages.dev/img";
+    const imgPath = "img/";
     const weekOfYear = getWeekOfYear(now);
     const weekIndex = (weekOfYear - 1) % daylightHours.length;
     const { start, end } = daylightHours[weekIndex];
