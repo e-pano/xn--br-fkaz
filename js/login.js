@@ -9,7 +9,7 @@ function getWeekOfYear(date) {
 }
 
 function setBackgroundImage() {
-    
+    const now = modifiedTime;
     const hours = now.getHours();
     const minutes = now.getMinutes();
     const currentMinutes = hours * 60 + minutes;
