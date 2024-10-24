@@ -36,7 +36,7 @@ function updateBackground() {
 
 
     const isLandscape = $(window).width() > $(window).height();
-    const imgPath = "https://börü.pages.dev/img/";
+    const imgPath = "https://xn--br-fkaz.pages.dev/img/";
     const backgroundImageUrl = isDayTime
 
 
@@ -187,7 +187,7 @@ function openPopup() {
     popup.style.display = "block";
 
     var gif = document.getElementById("reminderGif");
-    var currentSrc = "https://börü.pages.dev/img/reminder.gif";
+    var currentSrc = "https://xn--br-fkaz.pages.dev/img/reminder.gif";
     gif.src = "";
     gif.src = currentSrc + "?t=" + new Date().getTime();
 
@@ -269,8 +269,8 @@ checkUrlStatus(lastSrc).then(isValid => {
 
 setInterval(reloadIframe, reloadInterval);
 
-const dayMusic = 'https://börü.pages.dev/mp3/musicDay.mp3';
-const nightMusic = 'https://börü.pages.dev//mp3/musicNight.mp3';
+const dayMusic = 'https://xn--br-fkaz.pages.dev/mp3/musicDay.mp3';
+const nightMusic = 'https://xn--br-fkaz.pages.dev//mp3/musicNight.mp3';
 
 const audio1 = new Audio(dayMusic);
 const audio2 = new Audio(dayMusic);
@@ -415,10 +415,10 @@ toggleButton.addEventListener('click', () => {
 });
 
 const images = [
-    'https://börü.pages.dev/img/BGlandscapeDay.jpg',
-    'https://börü.pages.dev/img/BGlandscapeNight.jpg',
-    'https://börü.pages.dev/img/BGportraitDay.jpg',
-    'https://börü.pages.dev/img/BGportraitNight.jpg',
+    'https://xn--br-fkaz.pages.dev/img/BGlandscapeDay.jpg',
+    'https://xn--br-fkaz.pages.dev/img/BGlandscapeNight.jpg',
+    'https://xn--br-fkaz.pages.dev/img/BGportraitDay.jpg',
+    'https://xn--br-fkaz.pages.dev/img/BGportraitNight.jpg',
 ];
 
 let loadedImages = 0;
